@@ -2,7 +2,7 @@
 
 ### Agentic Corrective RAG for Insurance Intelligence
 
-## 📌 Overview
+##  Overview
 
 AI Contract Analyzer is an Agentic RAG system designed to analyze insurance contracts and answer complex legal questions using grounded contractual evidence.
 
@@ -22,7 +22,7 @@ The system is capable of:
 
 ---
 
-## 🖥️ Application Preview
+##  Application Preview
 
 ![AI Contract Analyzer Screenshot](assets/app_preview.png)
 
@@ -227,7 +227,7 @@ python -m eval.run_eval
 
 ---
 
-## 👤 Author
+### 👤 Author
 
 **Diaraye BARRY**
 Senior Data Scientist & Machine Learning Engineer
