@@ -22,7 +22,7 @@ The system is capable of:
 
 ---
 
-# 🖥️ Application Preview
+## 🖥️ Application Preview
 
 ![AI Contract Analyzer Screenshot](assets/app_preview.png)
 
@@ -95,7 +95,7 @@ graph LR
 
 ---
 
-# 🚀 Key Features
+## 🚀 Key Features
 
 | Feature                 | Description                                                    |
 | ----------------------- | -------------------------------------------------------------- |
@@ -108,7 +108,7 @@ graph LR
 
 ---
 
-# 📊 Evaluation Results (RAGAS)
+##  Evaluation Results (RAGAS)
 
 Evaluation performed on insurance/legal use cases using:
 
@@ -117,7 +117,7 @@ Evaluation performed on insurance/legal use cases using:
 * Context Precision
 * Context Recall
 
-# 🎯 Evaluation Results & Interpretation
+##  Evaluation Results & Interpretation
 
 | Metric             | Score  | Interpretation                                                        |
 |------------------- |-------:|---------------------------------------------------------------------- |
@@ -128,7 +128,7 @@ Evaluation performed on insurance/legal use cases using:
 
 ---
 
-# 🚀 Optimization Roadmap
+## Optimization Roadmap
 
 | Improvement                     | Expected Benefit               |
 | ------------------------------- | ------------------------------ |
@@ -140,7 +140,7 @@ Evaluation performed on insurance/legal use cases using:
 
 ---
 
-# 🛠️ Tech Stack
+## Tech Stack
 
 | Layer           | Technology            |
 | --------------- | --------------------- |
@@ -154,7 +154,7 @@ Evaluation performed on insurance/legal use cases using:
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## 1. Clone Repository
 
@@ -190,7 +190,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file:
 
@@ -201,7 +201,7 @@ HF_TOKEN=your_huggingface_token
 
 ---
 
-# 📂 Build the Vector Index
+## Build the Vector Index
 
 Place your PDFs inside `/data` and run:
 
@@ -211,7 +211,7 @@ python main_ingestion.py
 
 ---
 
-# ▶️ Launch Application
+# Launch Application
 
 ## Streamlit UI
 
@@ -227,7 +227,7 @@ python -m eval.run_eval
 
 ---
 
-# 👤 Author
+## 👤 Author
 
 **Diaraye BARRY**
 Senior Data Scientist & Machine Learning Engineer
