@@ -95,7 +95,7 @@ graph LR
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 | Feature                 | Description                                                    |
 | ----------------------- | -------------------------------------------------------------- |
@@ -154,16 +154,16 @@ Evaluation performed on insurance/legal use cases using:
 
 ---
 
-#  Installation
+##  Installation
 
-## 1. Clone Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/diabarry/ai-contract-analyzer.git
 cd ai-contract-analyzer
 ```
 
-## 2. Create Environment
+### 2. Create Environment
 
 ```bash
 python -m venv .venv
@@ -181,7 +181,7 @@ Linux/Mac:
 source .venv/bin/activate
 ```
 
-## 3. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install --upgrade pip
@@ -201,7 +201,7 @@ HF_TOKEN=your_huggingface_token
 
 ---
 
-## Build the Vector Index
+### Build the Vector Index
 
 Place your PDFs inside `/data` and run:
 
@@ -211,15 +211,15 @@ python main_ingestion.py
 
 ---
 
-# Launch Application
+## Launch Application
 
-## Streamlit UI
+### Streamlit UI
 
 ```bash
 streamlit run app.py
 ```
 
-## RAG Evaluation
+### RAG Evaluation
 
 ```bash
 python -m eval.run_eval
