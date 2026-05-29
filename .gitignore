@@ -1,0 +1,16 @@
+#SECURITY & KEY API
+.env
+#--- VIRTUAL ENVIRONNEMENT---
+.venv/
+
+# --- CACHES PYTHON ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- DATA & VECTOR STORE ---
+data/
+faiss_index/
+plan.docx
+eval_results_*.csv
